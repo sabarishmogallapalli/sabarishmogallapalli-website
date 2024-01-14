@@ -2,11 +2,11 @@ import * as React from "react"
 import SideBarLayout from "../components/SideBarLayout";
 import Card from "../components/Card";
 import { designsInformation } from "../content/data/Designs";
-import { DESIGNS_PROJECT } from "../content/site/links";
+import { DESIGNS } from "../content/site/links";
 
 export default function Projects() {
   return <div>
-            <SideBarLayout name={DESIGNS_PROJECT}>
+            <SideBarLayout name={DESIGNS}>
                 {designsInformation.map((project) => (
                         <Card 
                             cardTitle={project.title}
