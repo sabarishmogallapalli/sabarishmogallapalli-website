@@ -1,6 +1,6 @@
 
 // Change these to change the name, route and icon of your pages.
-export const BIO_LINK_NAME = "bio";
+export const BIO_LINK_NAME = "sabarishmogallapalli-website/bio";
 export const PROJECTS_LINK_NAME = "projects";
 export const HOME_LINK_NAME = "home";
 export const CITY_RECYCLE_DAY_PROJECT = "CityRecycleDay";
