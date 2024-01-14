@@ -22,7 +22,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                icon: 'static/logo.png',
+                icon: 'static/logo_black_transp.png',
             },
         },
         {
