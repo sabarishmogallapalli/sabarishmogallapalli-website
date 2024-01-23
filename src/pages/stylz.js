@@ -91,7 +91,7 @@ return(
 <li style={{paddingBottom:"100px", listStyle: 'none'}}>UX Lead</li>
     </div>
     <div>
-    <img src="../flaire.png" alt="ccf laptop" style={{width:"1000px", marginLeft:"1px", marginRight:"0px", marginTop:"0px"}}></img>
+    <img src="../flaire.png" alt="flaire phone" style={{width:"750px", marginLeft:"1px", marginRight:"0px", marginTop:"0px"}}></img>
     </div>
     </div>
 

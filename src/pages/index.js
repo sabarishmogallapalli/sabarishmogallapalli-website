@@ -28,7 +28,7 @@ export default function Home() {
             
         <div className="flex justify-between px-12 pt-2 relative">
             <div className="flex items-center relative z-2">
-            <img src="logo_black_transp.png" style={{ width: '100px', height: 'auto', transition: 'transform 0.3s ease-in-out' }} alt="Logo" onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.5)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}></img>
+            <StaticImage src="../../static/logo_black_transp.png" style={{ width: '100px', height: 'auto', transition: 'transform 0.3s ease-in-out' }} alt="Logo" onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.5)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}></StaticImage>
             </div>
             <div className="flex relative z-1 space-x-4">
                 {linkInformation.map((item) => (
@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
             </div>
             
-            <StaticImage src={'../static/Hello.png'} className="!w-[100%] !rounded-3xl !mx-auto !mt-[8%] !z-50 !flex !justify-center !items-center"></StaticImage>
+            <StaticImage src={'../../static/hello.png'} className="!w-[100%] !rounded-3xl !mx-auto !mt-[8%] !z-50 !flex !justify-center !items-center"></StaticImage>
 
             <div className="w-full text-7xl flex justify-center primary-text p-5 pb-0">
                 {NAME}

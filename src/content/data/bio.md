@@ -25,6 +25,7 @@ page: "bio"
 </style>
 
 <!-- Add HTML for image container -->
+
 <div class="image-container">
   <img src="../DSC00453.jpg" alt="Image" />
 </div>
@@ -36,7 +37,7 @@ I have a passion for human-centered design. Blending my interests in Data Scienc
 
 
 ### As an Employee,
-<img src="../JDTeam.jpg" alt="John Deere" />
+![picture](../JDTeam.jpg)
 I work as a Cybersecurity Software Engineer in a global security platform team at John Deere ISG as a part time student. I joined this team in May of 2023.
 
 In the global security platform team, I primarily work on full stack projects. Working with experienced developers and cybersecurity professionals and engineering managers is a very insightful experience. It has allowed me the opportunity to apply my skills and work hands on with employees on products. This immersive experience into the team and the product lifecycle gives me foundational knowledge of tools and technologies during my work in my Computer Science and Data Science courses at Illinois.

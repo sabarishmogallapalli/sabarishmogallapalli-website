@@ -1,17 +1,17 @@
 
 // Change these to change the name, route and icon of your pages.
-export const BIO_LINK_NAME = "sabarishmogallapalli-website/bio";
+export const BIO_LINK_NAME = "bio";
 export const PROJECTS_LINK_NAME = "projects";
 export const HOME_LINK_NAME = "home";
-export const CITY_RECYCLE_DAY_PROJECT = "CityRecycleDay";
-export const CLIVE_COMMUNITY_PROJECT = "CliveCommunityFoundation";
-export const PATHFINDERS_ROBOTICS_PROJECT = "PathfindersRobotics";
+export const CITY_RECYCLE_DAY_PROJECT = "cityrecycleday";
+export const CLIVE_COMMUNITY_PROJECT = "clivecommunityfoundation";
+export const PATHFINDERS_ROBOTICS_PROJECT = "pathfindersrobotics";
 export const STYLZ_PROJECT = "stylz";
 export const DESIGNS = "designs";
 export const DATA_SCIENCE = "datascience";
 
 //Don't change the resume link unless you know what you're doing!
-export const RESUME_LINK_NAME = "sabarishmogallapalli-website/resume";
+export const RESUME_LINK_NAME = "resume";
 
 /* 
 NOTHING BELOW NEEDS TO BE CHANGED UNLESS YOU ARE MAKING 

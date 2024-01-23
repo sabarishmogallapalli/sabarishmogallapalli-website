@@ -9,6 +9,7 @@ import Head from "../components/Head";
 import { sideLinkInformation, linkInformation } from "../content/site/links";
 import { icons } from "../content/site/socialIcons";
 import Icons from "../components/Icons";
+import { StaticImage } from "gatsby-plugin-image";
 
 const projectDropdownLinks = [
     { title: "City Recycle Day", href: "/cityrecycleday" },
@@ -27,7 +28,7 @@ return(
 
 <div className="flex justify-between px-12 pt-2 relative" style={{paddingBottom: "55px"}}>
             <div className="flex items-center relative z-2">
-            <img src="../logo_black_transp.png" style={{ width: '100px', height: 'auto', transition: 'transform 0.3s ease-in-out' }} alt="Logo" onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.5)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}></img>
+            <StaticImage src="../../static/logo_black_transp.png" style={{ width: '100px', height: 'auto', transition: 'transform 0.3s ease-in-out' }} alt="Logo" onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.5)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}></StaticImage>
             </div>
             <div className="flex relative z-1 space-x-4">
                 {linkInformation.map((item) => (
@@ -82,10 +83,10 @@ return(
 <li style={{listStyle: 'none'}}>Younger audiences</li>
 <h4><strong>Tools Used:</strong></h4>
 <div style={{ display: "flex" }}>
-    <img src="../wix_icon.png" alt="Wix Icon" style={{width:"30px",marginLeft:"5px",marginRight:"10px"}}></img>
-    <img src="../wordpress_icon.png" alt="Wordpress Icon" style={{width:"30px",marginLeft:"5px",marginRight:"10px"}}></img>
-    <img src="../miro_icon.png" alt="Miro Icon" style={{width:"30px",marginLeft:"5px",marginRight:"10px"}}></img>
-    <img src="../filezilla_icon.png" alt="FileZilla Icon" style={{width:"30px",marginLeft:"5px",marginRight:"10px"}}></img>
+    <StaticImage src="../../static/wix_icon.png" alt="Wix Icon" style={{width:"50px",marginLeft:"5px",marginRight:"10px"}}></StaticImage>
+    <StaticImage src="../../static/wordpress_icon.png" alt="Wordpress Icon" style={{width:"50px",marginLeft:"5px",marginRight:"10px"}}></StaticImage>
+    <StaticImage src="../../static/miro_icon.png" alt="Miro Icon" style={{width:"50px",marginLeft:"5px",marginRight:"10px"}}></StaticImage>
+    <StaticImage src="../../static/filezilla_icon.png" alt="Filezilla Icon" style={{width:"50px",marginLeft:"5px",marginRight:"10px"}}></StaticImage>
 </div>
 <h4 style={{paddingBottom:"10px"}}><strong>Role:</strong></h4>
 <li style={{paddingBottom:"100px", listStyle: 'none'}}>UX Lead</li>
@@ -173,7 +174,7 @@ return(
     <div style={{paddingBottom:"20px"}}>
     <div class="card paragraph-color-bg"> 
       <div class="container">
-    <img src="../sarah.jpg"></img>
+    <StaticImage src="../../static/sarah.jpg" alt="Sarah Person" style={{marginTop:"15px",marginRight:"10px"}}></StaticImage>
     <h4><b>Sarah, 28 <em>Graphic Designer</em></b></h4>
     <p>Motivations: Sarah wants to learn about and get involved in the various community projects and initiatives facilitated by the Clive Community Foundation.</p>
     <p>Challenges: Sarah might not be fully aware of all the foundation's activities and how she can actively participate.</p>
@@ -184,7 +185,7 @@ return(
   <div>
   <div class="card paragraph-color-bg">
       <div class="container">
-      <img src="../ben.jpg"></img>
+      <StaticImage src="../../static/ben.jpg" alt="Ben Person" style={{marginTop:"15px",marginRight:"10px"}}></StaticImage>
     <h4><b>Ben, 42 <em>Financial Analyst</em></b></h4>
     <p>Motivations: Wishes to financially support community development projects.</p>
     <p>Challenges: He doesn't have clear visibility of where and how the donations will be used and updates on the progress of the project.</p>

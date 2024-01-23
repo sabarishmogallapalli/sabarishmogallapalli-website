@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-    pathPrefix: `/`,
+    pathPrefix: `/sabarishmogallapalli-website/`,
     plugins: [
         'gatsby-plugin-postcss',
         `gatsby-plugin-image`,
