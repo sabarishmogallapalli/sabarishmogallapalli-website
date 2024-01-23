@@ -63,8 +63,8 @@ export default function Home() {
                 </div>
             </div>
             
-            <StaticImage src={'../../static/Hello.png'} className="!w-[100%] !rounded-3xl !mx-auto !mt-[8%] !z-50 !flex !justify-center !items-center"></StaticImage>
-
+            <StaticImage src={'../Hello.png'} className="!w-[100%] !rounded-3xl !mx-auto !mt-[8%] !z-50 !flex !justify-center !items-center"></StaticImage>
+            <img src="../static/hello.png"></img>
             <div className="w-full text-7xl flex justify-center primary-text p-5 pb-0">
                 {NAME}
             </div>
